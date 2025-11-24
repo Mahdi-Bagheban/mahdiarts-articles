@@ -1,0 +1,25 @@
+{
+  "name": "mahdiarts-articles",
+  "version": "2.0.0",
+  "description": "Professional article system with PWA, SEO, and modern web standards",
+  "scripts": {
+    "dev": "npx serve public",
+    "build": "node scripts/generate-sitemap.js",
+    "deploy": "wrangler pages deploy public",
+    "lighthouse": "npx lighthouse https://mahdiarts.ir --view",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "PWA",
+    "SEO",
+    "Accessibility",
+    "Web Development",
+    "Persian Articles"
+  ],
+  "author": "Mahdi Bagheban",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "lighthouse": "^11.0.0"
+  }
+}
