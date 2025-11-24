@@ -1,0 +1,77 @@
+{
+  "name": "مهدی آرتز - مقالات تخصصی",
+  "short_name": "مهدی آرتز",
+  "description": "مقالات تخصصی توسعه وب، اپلیکیشن اندروید و هوش مصنوعی",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "dir": "rtl",
+  "lang": "fa-IR",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "مقالات UI/UX",
+      "url": "/articles/uiux.html",
+      "description": "طراحی رابط و تجربه کاربری"
+    },
+    {
+      "name": "مقالات سئو",
+      "url": "/articles/seo-performance.html",
+      "description": "بهینه‌سازی موتورهای جستجو"
+    },
+    {
+      "name": "مقالات امنیت",
+      "url": "/articles/security-stability.html",
+      "description": "امنیت و پایداری نرم‌افزار"
+    }
+  ],
+  "categories": ["education", "development", "technology"],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/screenshots/mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
